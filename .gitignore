@@ -1,0 +1,36 @@
+# Build output
+/target/
+
+# Rust/Cargo metadata
+**/*.rs.bk
+# Cargo.lock
+# (If you're building a library, keep Cargo.lock. For binaries, it's optional.)
+
+# Rust toolchains / artifacts
+.rustup/
+.cargo/
+rustfmt.toml
+
+# Docker build artifacts
+*.tar
+*.img
+*.iso
+
+# Logs
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Added by cargo
+/target
+
+#gemini
+.gemini/
